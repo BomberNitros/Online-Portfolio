@@ -1,0 +1,36 @@
+{
+  "name": "online-portfolio",
+  "version": "0.9.0",
+  "description": "Packages for online portfolio.",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BomberNitros/Online-Portfolio.git"
+  },
+  "keywords": [
+    "online",
+    "portfolio",
+    "kevin",
+    "eersteling"
+  ],
+  "author": "Kevin Eersteling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BomberNitros/Online-Portfolio/issues"
+  },
+  "readme": "https://github.com/BomberNitros/Online-Portfolio#readme",
+  "homepage": "kevineersteling.com"
+}

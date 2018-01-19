@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MaterializeCSS Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body>
+    <!-- You write code for this content block in another file -->
+    {% block content %}{% endblock %}
+    <!-- Jquery -->
+    {# <script src="node_modules/jquery/dist/jquery.js"></script> #}
+    <!-- MaterializeCSS Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script id="__bs_script__">
+      //<![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
+      //]]></script>
+      <script src="js/index.js">
+    </script>
+  </body>
+</html>
