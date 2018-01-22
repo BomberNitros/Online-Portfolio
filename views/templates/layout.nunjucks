@@ -2,18 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Kevin Eersteling | Online Portfolio</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Radley:400" rel="stylesheet" />
     <!-- MaterializeCSS Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize-src/materialize.css"  media="screen,projection"/>
+    {# <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> #}
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- You write code for this content block in another file -->
     {% block content %}{% endblock %}
-    <!-- Jquery -->
-    {# <script src="node_modules/jquery/dist/jquery.js"></script> #}
+    <!--Import jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- MaterializeCSS Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    {# <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> #}
+    {# <script type="text/javascript" src="js/materialize-src/forms.js"></script> #}
     <script id="__bs_script__">
       //<![CDATA[
       document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
